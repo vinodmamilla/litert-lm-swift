@@ -21,7 +21,7 @@ rm -rf ~/Library/Developer/Xcode/DerivedData/*
 Clone the testing app and the target release candidate branch:
 
 ```bash
-git clone https://github.com/google-ai-edge/litert-lm-swift.git
+git clone https://github.com/vinodmamilla/litert-lm-swift.git
 git clone -b release/v0.18.0 https://github.com/google-ai-edge/LiteRT-LM.git
 ```
 
