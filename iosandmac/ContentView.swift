@@ -132,11 +132,13 @@ struct EmbeddingTestingView: View {
   func initializeEmbeddingEngine() async {
     do {
       guard let modelPath = Bundle.main.path(
+        forResource: "embeddinggemma-2-740m", ofType: "litertlm"
+      ) ?? Bundle.main.path(
         forResource: "embedding-gemma-v2", ofType: "litertlm"
       ) ?? Bundle.main.path(
         forResource: "model", ofType: "litertlm"
       ) else {
-        statusMessage = "❌ Model file (embedding-gemma-v2.litertlm) not found in bundle!"
+        statusMessage = "❌ Model file (embeddinggemma-2-740m.litertlm) not found in bundle!"
         return
       }
 

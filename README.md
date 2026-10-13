@@ -51,12 +51,12 @@ git clone -b release/v0.18.0 https://github.com/google-ai-edge/LiteRT-LM.git
 ### Step 5: Add Models by Dragging
 Drag and drop your model file(s) into the `iosandmac` folder in the Xcode project navigator:
 - **LLM Model**: `gemma-4-E2B-it.litertlm`
-- **Embedding Model**: `embedding-gemma-v2.litertlm`
+- **Embedding Model**: `embeddinggemma-2-740m.litertlm`
 
 > [!NOTE]
 > If needed, compatible model files can be downloaded from Hugging Face:
 > - [gemma-4-E2B-it-litert-lm](https://huggingface.co/litert-community/gemma-4-E2B-it-litert-lm)
-> - [embedding-gemma-v2-litert-lm](https://huggingface.co/litert-community/embedding-gemma-v2-litert-lm)
+> - [embeddinggemma-2-740m-litert-lm](https://huggingface.co/litert-community/embeddinggemma-2-740m-litert-lm/blob/main/embeddinggemma-2-740m.litertlm)
 
 ### Step 6: Test Sample App by Changing CPU & GPU
 Test the sample app by changing the backend (`cpu()` vs `gpu`) in `ContentView.swift`:
