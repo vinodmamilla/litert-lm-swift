@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+project.xcworkspace/xcuserdata/
+xcuserdata/
+
+# LiteRT-LM Large Model Weights & Caches (>100MB)
+*.litertlm
+*.bin
+*.xnnpack_cache
+*.mldrift_program_cache.bin
+*.mldrift_weight_cache.bin
+
+# Swift Package Manager
+.build/
+Packages/
