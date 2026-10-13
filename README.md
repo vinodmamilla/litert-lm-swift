@@ -26,11 +26,7 @@ git clone -b release/v0.18.0 https://github.com/google-ai-edge/LiteRT-LM.git
 ```
 
 ### Step 3: Open in Xcode & Add Local Dependency
-1. Open `litert-lm-swift` in Xcode:
-   ```bash
-   cd litert-lm-swift
-   open iosandmac.xcodeproj
-   ```
+1. Open existing project and select `litert-lm-swift` (just cloned) in Xcode.
 2. In Xcode, click **File** > **Add Package Dependencies...** > **Add Local...** and select the cloned `LiteRT-LM` folder.
 
 ### Step 4: Add Prebuilts & Update `Package.swift`
